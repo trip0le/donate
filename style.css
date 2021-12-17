@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Allan';
+}
+/* navbar */
+
+header{
+    height: 100vh;
+    background: url(images/header.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-center{
+    height: 100vh;
+    color: #FFFBDB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-underline{
+    width: 450px;
+    border: 3px solid #FFFBDB;
+    margin: 0px auto 20px auto;
+}
+.banner-center a{
+    font-size: 30px;
+    width: 300px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid #FFFBDB;
+    color: #FFFBDB;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.banner-center a:hover,
+.banner-center a:focus{
+    color: #DA7422;
+    background-color: #FFFBDB;
+}
+/* title */
+.title{
+    margin: 20px 0;
+}
+.title-underline{
+    width: 120px;
+    border: 3px solid #FFFBDB;
+    margin: 0px auto 10px auto;
+}
+/* end of title */
+
+/* about */
+#about{
+    background-color: #3b3a38;
+}
+#about .pic{
+    height: 600px;
+    background: url(images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #3b3a38;
+}
+#about.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* end of about section */
+/* contact section */
+#contacts{
+    padding: 40px;
+    background-color: #FFFBDB;
+}
+#contacts .form-control {
+    border-radius: 0!important;
+    font-size: 20px;
+}
+#contacts button{
+    background-color: #3b3a38;
+    font-size: 24px;
+    color: #DA7422;
+    margin-bottom: 20px;
+}
+#contacts button:hover{
+    background-color: #472C1B;
+}
+/* end contact section */
+/* footer section */
+#footer {
+    padding: 40px;
+    color: #FFFBDB;
+    background-color: #1b1b1a;
+}
+#footer .title-underline{
+    width: 350px;
+    margin-bottom: 40px;
+}
+#footer .footer-icons{
+    font-size: 60px;
+    padding-top: 30px;
+}
+#footer .footer-icons a{
+    color: #FFFBDB;
+    text-decoration: none;
+}
+#footer .footer-icons a:hover{
+    color: gray;
+}
+#footer .copyrights h3{
+    padding: 40px 0;
+    color: #FFFBDB;
+}
+/* end of footer section */
